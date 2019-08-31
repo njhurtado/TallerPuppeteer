@@ -1,0 +1,19 @@
+{
+  "name": "puppeteer-and-jest-example",
+  "version": "1.0.0",
+  "description": "Example app using Headless Chrome, Puppeteer and Jest",
+  "main": "index.js",
+  "jest": {
+    "preset": "jest-puppeteer"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Nelson Hurtado",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^25.0.0",
+    "jest-puppeteer": "^3.5.2",
+    "puppeteer": "^1.19.0"
+  }
+}
